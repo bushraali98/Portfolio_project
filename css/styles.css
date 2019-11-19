@@ -1,0 +1,180 @@
+#2a4d69
+#4b86b4
+#adcbe3
+#e7eff6
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.logo {
+    
+    background: url(../images/udacitylogo.png) ;
+    background-repeat: no-repeat;
+    padding: 100px;
+    float: left;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+
+h1 {
+    color: #2a4d69;
+    font-size: 80px;
+}
+
+
+h2 {
+    color: #adcbe3; 
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+h3 {
+    color: #4b86b4;
+    font-size: 40px; 
+    margin: 0;
+}
+
+
+.html .contentWrap h3 {
+    color: floralwhite;
+}
+
+
+.css .contentWrap h3 {
+    color: floralwhite;
+}
+
+
+.js .contentWrap h3 {
+    color: floralwhite;
+}
+
+
+p {
+    color: #2a4d69;
+}
+
+
+header {
+    position: relative;
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-right: 20px;
+    width: 500px;
+    height: 350px;
+}
+
+
+header {
+text-align: left;
+}
+
+
+header {
+text-align: left;
+}
+
+
+.html {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141 , 153, 174, 0.5)),
+                 url(../images/coding.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.css {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141 , 153, 174, 0.5)),
+                 url(../images/book.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.js {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141 , 153, 174, 0.5)),
+                 url(../images/javascript.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+
+.contentWrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 75px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+
+    .col-narrow {
+    width: 40%;
+}
+
+
+    .col-wide {
+       width: 55%;
+       float: right;
+       
+}
+
+/*
+@media (min-width: 700px) {
+    .col-narrow {
+       width: 30%;
+       float: left;
+}
+    .col-wide {
+       width: 70%;
+       float: left;
+       padding-left: 20px;
+}
+}
+*/
+
+@media screen and (max-width: 850px) {
+
+    .logo {
+        background: none;
+        margin: 0 auto;
+    }
+    
+    .profile-img {
+        width: 100%;
+        
+    }
+    .col-wide {
+        float: left;
+        width: 100%;
+            
+    }
+    
+    .contentWrap {
+      text-align: center;
+      line-height: 4em;
+    }
+    
+}
